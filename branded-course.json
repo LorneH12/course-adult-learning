@@ -1,0 +1,161 @@
+{
+  "id": "adult-learning",
+  "title": "Adult Learning: Turn Experience into Practice",
+  "headline": "Good learning\nstarts with doing.",
+  "audience": "New trainers and quality coaches",
+  "need": "A trainer in a financial-services learning team has a dense procedure and a short session. Employees need practice making a quality decision, with enough guidance to apply the standard.",
+  "outcomes": [
+    "Choose design moves that connect adult learners’ experience to a relevant task.",
+    "Revise a short training activity to include practice, feedback and evidence."
+  ],
+  "concepts": [
+    {
+      "title": "Start with a meaningful problem",
+      "body": "Explain what the learner will be able to do and why it matters to the job. A concrete problem helps learners connect a session to their own work. Treat relevance as something to establish with the audience, not assume."
+    },
+    {
+      "title": "Use experience as material",
+      "body": "Invite a brief example from prior work, then test the approach against the current task and standard. Experience can help learning, but old habits may also need revision. Avoid presenting one learner’s anecdote as universal evidence."
+    },
+    {
+      "title": "Offer useful choice and support",
+      "body": "Give learners choices that still lead to the objective, such as selecting one of two practice contexts. Explain the goal and provide enough structure for novices. Self-direction does not mean leaving people without a model or feedback."
+    },
+    {
+      "title": "Practice, feedback, transfer",
+      "body": "Let learners attempt the work, receive specific feedback and try again. Finish with a small workplace application and a way to inspect the result. Adult-learning principles are design guidance, not a claim that every adult has identical preferences."
+    }
+  ],
+  "example": {
+    "title": "Replace a 12-minute explanation",
+    "body": "The old session describes a quality rubric for 12 minutes. Learners then rate their confidence. The job requires using that rubric to justify a quality decision.",
+    "steps": [
+      "Open with a short anonymized quality decision.",
+      "Ask learners what evidence they would inspect.",
+      "Model one rating, then give a new case to rate.",
+      "Compare the rationale with the criteria and revise it.",
+      "Plan a real follow-up review with the quality coach."
+    ]
+  },
+  "practice": {
+    "prompt": "Which activity best uses prior experience without treating it as automatically correct?",
+    "options": [
+      "Ask for an example, compare it with the current criteria, and revise the response",
+      "Skip the standard because everyone has experience",
+      "Ask learners to memorize everyone’s stories"
+    ],
+    "key": 0,
+    "feedback": "The activity respects experience while checking it against the work standard."
+  },
+  "draft": {
+    "prompt": "Revise a lecture-only session on giving quality feedback. Include one relevant task, learner choice, feedback and a transfer check.",
+    "label": "Your activity redesign",
+    "model": "Choose one of two fictional coaching cases. Draft feedback tied to the quality criteria, compare it with a model, revise it, then ask a coach to review a future workplace example.",
+    "criteria": [
+      "Identifies a relevant work task",
+      "Uses experience or a meaningful choice",
+      "Includes practice and specific feedback",
+      "Names evidence for a later transfer check"
+    ]
+  },
+  "quiz": [
+    {
+      "prompt": "Which opening makes relevance concrete?",
+      "options": [
+        "List 25 definitions",
+        "Show the work problem and the task learners will practice",
+        "Start with a timer and no purpose"
+      ],
+      "key": 1,
+      "feedback": "The work problem explains why the session matters."
+    },
+    {
+      "prompt": "A learner shares an outdated technique. What should the trainer do?",
+      "options": [
+        "Accept it because experience always wins",
+        "Dismiss the learner",
+        "Compare it respectfully with the current standard"
+      ],
+      "key": 2,
+      "feedback": "Experience is useful material for analysis, not automatic proof."
+    },
+    {
+      "prompt": "Which choice preserves alignment?",
+      "options": [
+        "Choose either of two cases requiring the same target skill",
+        "Choose to skip all practice",
+        "Choose an unrelated entertaining task"
+      ],
+      "key": 0,
+      "feedback": "The context changes while the required performance stays aligned."
+    },
+    {
+      "prompt": "Which feedback helps revision?",
+      "options": [
+        "Good job, regardless of the response",
+        "Your rationale names a criterion; now connect it to specific case evidence",
+        "Only a final percentage"
+      ],
+      "key": 1,
+      "feedback": "Specific feedback points to an actionable improvement."
+    },
+    {
+      "prompt": "Which evidence best checks transfer?",
+      "options": [
+        "Attendance alone",
+        "A happiness rating alone",
+        "A later work sample reviewed against the criteria"
+      ],
+      "key": 2,
+      "feedback": "A later work sample tests use in context; satisfaction is different evidence."
+    }
+  ],
+  "jobaid": [
+    "Name the job problem and target performance.",
+    "Connect prior experience to the current standard.",
+    "Offer bounded choice and sufficient support.",
+    "Include practice, feedback, revision and follow-up."
+  ],
+  "sources": [
+    [
+      "CDC: Quality Training Standards",
+      "https://www.cdc.gov/training-development/php/qts/index.html"
+    ],
+    [
+      "CDC: Adult learning principles",
+      "https://www.cdc.gov/training-development/media/pdfs/2024/04/adult-learning-principles.pdf"
+    ]
+  ],
+  "duration": "12–15 minutes",
+  "version": "1.0.1",
+  "brand": {
+    "name": "Charles Schwab",
+    "primary": "#006b96",
+    "ink": "#17364b",
+    "hover": "#004F78",
+    "tint": "#E8F5FC",
+    "context": "Schwab-inspired trainer development",
+    "style": "body #brand{font-family:Georgia,serif;font-size:30px}body .hero h1{font-family:Georgia,serif;font-weight:500;letter-spacing:-.035em}body .hero img{border-radius:8px}",
+    "css": ":root{--brand-hover:#004F78;--brand-tint:#E8F5FC}\nbody .primary:hover{background:var(--brand-hover)}body nav button[aria-current=step],body .pill{background:var(--brand-tint);color:var(--primary)}body .choice:has(input:checked){background:var(--brand-tint)}body .dark .eyebrow{color:#FFFFFF}\nbody #brand{font-family:Georgia,serif;font-size:30px}body .hero h1{font-family:Georgia,serif;font-weight:500;letter-spacing:-.035em}body .hero img{border-radius:8px}"
+  },
+  "disclosure": "Independent portfolio sample by Lorne Hopkins. Brand-inspired educational design; not official employer or vendor training. Scenarios and records are fictional.",
+  "creative": {
+    "brand": "Charles Schwab",
+    "mood": "Bright / thoughtful / hands-on workshop",
+    "series": "THE LEARNING WORKSHOP",
+    "tag": "Bring experience. Build capability.",
+    "headline": "Good learning\nstarts with doing.",
+    "primary": "#006b96",
+    "ink": "#17364b",
+    "bg": "#f2f8fb",
+    "accent": "#c8edf4",
+    "context": "Schwab lens · Instructional design & facilitation",
+    "visual": "workshop",
+    "role": "You are an instructional designer helping trainers and SMEs turn a dense procedure into useful practice in a regulated financial-services environment.",
+    "media": "adult-learning-theory--alt-l1",
+    "answer": "Offer the requested demonstration, then guided practice and feedback. Experience in one role does not remove the need for support with a new task."
+  },
+  "hero": "<div class=\"scene workshop\" role=\"img\" aria-label=\"Learning design workshop: experience plus relevant practice and feedback supports application\"><span class=\"scene-label\">A WORKSHOP, NOT A WALL OF SLIDES</span><div class=\"note note1\"><span>01 / CONNECT</span><b>Your experience</b><i>What have you tried?</i></div><div class=\"note note2\"><span>02 / PRACTICE</span><b>A real decision</b><i>Try it. Get feedback.</i></div><div class=\"note note3\"><span>03 / TRANSFER</span><b>Use it at work</b><i>What will change?</i></div><div class=\"paperclip\">✦</div></div>",
+  "mediaBase": "https://lorneh12.github.io/learning-portfolio-platform/media--adult-learning-theory--alt-l1",
+  "transcript": "Allow 4 minutes, including the decision and check. Fictional case: Harbor Service Desk is introducing a shared handoff form. A usable handoff contains an issue summary, the next owner, and the next action. Ten sampled handoffs contain four missing owners. The manager requests a presentation about the new process. Before building it, ask what people must do and what prevents them from doing it.\n\nAndragogy, associated with Malcolm Knowles, offers assumptions concerning adults' need to know why, self-direction, experience, readiness, problem orientation, and motivation. These are useful questions for design, not guarantees about each adult. An experienced employee may be a novice with this tool; someone attending a mandatory session may need substantial guidance. Adult learning has multiple theoretical perspectives, and andragogy is not its single universal explanation. See the Penn State readings in Sources.\n\nWorked example: replace “They are adults, so let them explore” with “Can they already locate the owner list and submit a practice handoff?” Observe the task, ask about obstacles, and offer a guided example when needed. In this sample, the instructional goal is a complete handoff. Fixing access to the owner list belongs in the implementation plan too.\n\nNow it's your turn. A capable new supervisor asks for a step-by-step demonstration before practicing. What should you do? Pause the video and make your choice in the activity below.\n"
+}
