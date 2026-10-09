@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "archive": "course-adult-learning-scorm12.zip",
+  "sha256": "837b45310870bf24ab8115acbf813e813548db2e8b37c5b7d641ab9c8ae232f7",
+  "checks": [
+    "Manifest parses",
+    "Launch target present",
+    "All manifest files present",
+    "SCORM 1.2 SCO declaration"
+  ],
+  "boundary": "Structural test, not schema conformance or Moodle import"
+}
